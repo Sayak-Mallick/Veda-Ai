@@ -10,7 +10,6 @@ const errorHandler = require('./middlewares/errorMiddleware');
 
 
 dotenv.config();
-
 const app = express();
 
 //middlewares

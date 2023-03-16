@@ -11,7 +11,7 @@ const Homepage = () => {
       <Box sx={{ display: "flex", flexDirection: "row" }}>
         <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
-            Text Generation
+            Bhagwat Geeta 
           </Typography>
           <Card
             onClick={() => navigate("/summary")}
@@ -33,15 +33,15 @@ const Homepage = () => {
             />
             <Stack p={3} pt={0}>
               <Typography fontWeight="bold" variant="h5">
-                TEXT SUMAMRY
+               Bhagwat Geeta AI
               </Typography>
               <Typography variant="h6">
-                Summarize long text into short sentences
+                Get your answers related to your life according to Shrimad Bhagwat Geeta.
               </Typography>
             </Stack>
           </Card>
         </Box>
-        <Box p={2}>
+        {/* <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
             Parapgraph Generation
           </Typography>
@@ -164,7 +164,7 @@ const Homepage = () => {
               <Typography variant="h6">Generate Scifi images</Typography>
             </Stack>
           </Card>
-        </Box>
+        </Box> */}
       </Box>
     </>
   );

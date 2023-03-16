@@ -58,7 +58,13 @@ const Summary = () => {
                 </Alert>
             </Collapse>
             <form onSubmit={handleSubmit}>
-                <Typography variant="h3">Summarize Text</Typography>
+                <Typography variant="h3">यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥४-७॥</Typography>
+                <br />
+
+                <Typography variant="h3">
+                परित्राणाय साधूनां विनाशाय च दुष्कृताम् । धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥४-८॥
+                </Typography>
+
 
                 <TextField
                     placeholder="add your text"
